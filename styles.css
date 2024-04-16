@@ -1,0 +1,271 @@
+body {
+    font-family: "Encode Sans", sans-serif;
+}
+
+.topo {    
+    height: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #F5F6F7;
+}
+
+.logo {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #F5F6F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu ul{
+    height: 44px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.menu li:nth-child(1) {
+    color: #C3170C;
+}
+
+.menu li:nth-child(2) {
+    color: #1E4B9B;
+}
+
+.menu li:nth-child(3) {
+    color: #006766;
+}
+
+.menu li:nth-child(4) {
+    color: #07AA47;
+}
+
+.menu li:nth-child(5) {
+    color: #E3662B;
+}
+
+.menu li:nth-child(6) {
+    color: #FB0735;
+}
+
+.menu li:nth-child(7) {
+    color: #FF75BB;
+}
+
+.menu li:nth-child(8) {
+    color: #EC7D00;
+}
+
+.menu li:nth-child(9) {
+    color: #323333;
+}
+
+.menu li:nth-child(10) {
+    color: #A81D83;
+}
+
+h1 {
+    line-height: 1.2; 
+}
+
+h2, h3 {
+    line-height: 1.4; 
+}
+
+p {
+    line-height: 1.5; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 36px 0;
+}
+
+.containerDuo {
+    width: 1250px;
+    height: 845px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsLeft {
+    width: 655px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftTop {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.leftTop h1 {
+    padding-bottom: 25px;
+    font-size: 52px;
+    font-weight: 700;
+    color: #C4160C;
+}
+
+.leftTop p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #303134;
+}
+
+img {
+    border-radius: 12px;
+}
+
+.leftCenter {
+    width: 655px;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    border-top: 1px solid #EBEDEF;
+    border-bottom: 1px solid #EBEDEF;
+}
+
+.leftCenter img {
+    height: 110px;
+    width: 193px;
+}
+
+.leftCenter p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2F3134;
+}
+
+.leftCenter h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #C4170C;
+}
+
+.leftCenter h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3134;
+}
+
+.leftCenterBox {
+    width: 193px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftBottom {
+    padding: 15px;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomBox {
+    width: 193px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bottomBox h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #C4170C;
+}
+
+.bottomBox h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3134;
+}
+
+.bottomBox p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2F3134;
+}
+
+.newsRight {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightLeft {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid #EBEDEF;
+    border-right: 1px solid #EBEDEF;
+}
+
+.rightRight .rightBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+.newsRight img {
+    width: 240px;
+    height: 128px;
+    padding-bottom: 6px;
+}
+
+
+.rightBox {
+    width: 240px;
+}
+
+.newsRight h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #16AE54;
+    padding-bottom: 4px;
+}
+
+.newsRight h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3134;
+    padding-bottom: 4px;
+}
+
+.newsRight p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2F3134;
+    padding-bottom: 6px;
+}
+
+.rightRight h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #EC8006;
+}
